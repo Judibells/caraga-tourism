@@ -160,6 +160,23 @@ export default function App() {
           </motion.div>
         )}
       </AnimatePresence>
+      {/* GMAIL-DIRECT CONTACT */}
+<section className="contact-small">
+  <div className="contact-wrap">
+    <div className="gateway-label">
+      <Zap size={14} color="var(--highlight)" />
+      <span>OFFICIAL GATEWAY</span>
+    </div>
+    <a 
+      href="https://mail.google.com/mail/?view=cm&fs=1&to=jrsumalinab@gmail.com" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      className="small-email"
+    >
+      jrsumalinab@gmail.com
+    </a>
+  </div>
+</section>
 
       <footer className="footer">
         <div className="footer-top">
