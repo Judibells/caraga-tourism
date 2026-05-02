@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import heroPhoto from './assets/caraga-hero.jpg'; 
-import './App.css';
+import heroPhoto from './assets/hero.png';
 
 // --- TOURISM CONFIGURATION DATABASES ---
 const STATUS_STATES = {
